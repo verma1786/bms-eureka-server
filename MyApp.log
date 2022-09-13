@@ -1,0 +1,179 @@
+2022-09-13 19:10:08,092 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:11:36,288 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:15:43,351 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:16:00,222 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:18:02,402 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:18:14,538 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:18:39,985 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:18:54,520 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2022-09-13 19:19:52,298 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator       - Fetching config from server at : http://10.68.238.4:8989
+2022-09-13 19:19:53,364 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator       - Located environment: name=bms-eureka-service, profiles=[dev], label=null, version=6cdea9498d149813c64c9e58fd7e3e7886e5b6fd, state=null
+2022-09-13 19:19:53,364 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration     - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/verma1786/bms-configuration-repository.git/file:C:\Users\SCRB\AppData\Local\Temp\config-repo-18264722021647913068\bms-eureka-service-dev.properties'}]
+2022-09-13 19:19:53,364 [main] INFO  c.e.server.BmsEurekaServerApplication              - The following 1 profile is active: "dev"
+2022-09-13 19:19:54,211 [main] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=262a9f02-c813-3fe9-beee-df16acdd5139
+2022-09-13 19:19:54,681 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8761 (http)
+2022-09-13 19:19:54,697 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-10.68.238.4-8761"]
+2022-09-13 19:19:54,697 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-09-13 19:19:54,697 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-13 19:19:54,838 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-09-13 19:19:54,838 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1458 ms
+2022-09-13 19:19:55,293 [main] INFO  c.s.j.s.i.application.WebApplicationImpl           - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-09-13 19:19:55,356 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using JSON encoding codec LegacyJacksonJson
+2022-09-13 19:19:55,356 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using JSON decoding codec LegacyJacksonJson
+2022-09-13 19:19:55,513 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using XML encoding codec XStreamXml
+2022-09-13 19:19:55,513 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using XML decoding codec XStreamXml
+2022-09-13 19:19:57,143 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2022-09-13 19:19:57,190 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-13 19:19:57,216 [main] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2022-09-13 19:19:57,237 [main] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2022-09-13 19:19:57,237 [main] INFO  com.netflix.discovery.DiscoveryClient              - Client configured to neither register nor query for data.
+2022-09-13 19:19:57,300 [main] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1663076997300 with initial instances count: 0
+2022-09-13 19:19:57,378 [main] INFO  c.n.eureka.DefaultEurekaServerContext              - Initializing ...
+2022-09-13 19:19:57,378 [main] INFO  c.netflix.eureka.cluster.PeerEurekaNodes           - Adding new peer nodes [http://localhost:8761/eureka/]
+2022-09-13 19:19:57,645 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using JSON encoding codec LegacyJacksonJson
+2022-09-13 19:19:57,645 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using JSON decoding codec LegacyJacksonJson
+2022-09-13 19:19:57,645 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using XML encoding codec XStreamXml
+2022-09-13 19:19:57,645 [main] INFO  c.n.d.provider.DiscoveryJerseyProvider             - Using XML decoding codec XStreamXml
+2022-09-13 19:19:57,739 [main] INFO  c.netflix.eureka.cluster.PeerEurekaNodes           - Replica node URL:  http://localhost:8761/eureka/
+2022-09-13 19:19:57,755 [main] INFO  c.n.e.registry.AbstractInstanceRegistry            - Finished initializing remote region registries. All known remote regions: []
+2022-09-13 19:19:57,755 [main] INFO  c.n.eureka.DefaultEurekaServerContext              - Initialized
+2022-09-13 19:19:57,755 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 16 endpoint(s) beneath base path '/actuator'
+2022-09-13 19:19:57,786 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application PSA-EUREKA-SERVICE with eureka with status UP
+2022-09-13 19:19:57,786 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-10.68.238.4-8761"]
+2022-09-13 19:19:57,802 [Thread-10] INFO  o.s.c.n.e.server.EurekaServerBootstrap             - isAws returned false
+2022-09-13 19:19:57,833 [Thread-10] INFO  o.s.c.n.e.server.EurekaServerBootstrap             - Initialized server context
+2022-09-13 19:19:57,833 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl              - Got 1 instances from neighboring DS node
+2022-09-13 19:19:57,833 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl              - Renew threshold is: 1
+2022-09-13 19:19:57,833 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl              - Changing status to UP
+2022-09-13 19:19:57,833 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8761 (http) with context path ''
+2022-09-13 19:19:57,833 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8761
+2022-09-13 19:19:57,833 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration   - Started Eureka Server
+2022-09-13 19:19:58,146 [main] INFO  c.e.server.BmsEurekaServerApplication              - Started BmsEurekaServerApplication in 7.3 seconds (JVM running for 7.955)
